@@ -1,3 +1,7 @@
+<?php 
+	include('assets/includes/arrays.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +17,6 @@
 			</a>
 		</div><!-- banner -->
 		<div id="nav">
-			<?php include('/assets/includes/nav.php') ?>
+			<?php include('assets/includes/nav.php') ?>
 		</div><!-- nav -->
 		<div class="content">
