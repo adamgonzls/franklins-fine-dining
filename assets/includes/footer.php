@@ -19,9 +19,11 @@
 					<em>Sunday - Monday</em><br>
 						Closed<br><br>
 
+					<?php include('assets/includes/store-hours.php'); ?>
+
 				</div><!-- column -->
 			</div><!-- footer -->
-			<small>&copy;2014 Adam</small>
+			<small>&copy;<?php echo date('Y'); ?> <?php echo $companyName; ?></small>
 		</div><!-- content -->
 	</div><!-- wrapper -->
 	<div class="copyright-info">
