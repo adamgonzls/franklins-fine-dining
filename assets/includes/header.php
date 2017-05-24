@@ -7,7 +7,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title><?php echo TITLE; ?></title>
 	<link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body id="final-example">
